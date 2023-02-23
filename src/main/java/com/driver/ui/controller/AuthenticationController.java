@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.driver.service.UserService;
 
 @RestController
-public class AuthenticationController {
+public class AuthenticationController{
 
 	@Autowired
 	UserService userService;
@@ -27,4 +27,6 @@ public class AuthenticationController {
 		
 		return returnValue;
 	}
+
+
 }

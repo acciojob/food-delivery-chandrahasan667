@@ -5,6 +5,7 @@ public class OrderDetailsRequestModel {
 	private String[] items;
 	private float cost;
 	private String userId;
+
 	public float getCost() {
 		return cost;
 	}
